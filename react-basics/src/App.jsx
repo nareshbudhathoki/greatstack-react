@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Navbar from './components/Navbar';
+import FirstComponent from './components/FirstComponent';
 
 function App() {
   const [y, setY] = useState(0);
@@ -23,6 +24,7 @@ function App() {
     <div>
       <button onClick={btnClick}>Click Me!</button>
       <p>{y}</p>
+      <FirstComponent data ={y} fn={setY}/>
     </div>
     </>
   )
