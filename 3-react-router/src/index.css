@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul{
+  display: flex;
+  gap: 30px;
+  background-color: rgb(56, 55, 55);
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li{
+  /* list-style-type: none; */
+  list-style: none;
+}
+
+.red{
+  background-color: red;
+}
